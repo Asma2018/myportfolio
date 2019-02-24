@@ -101,7 +101,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva,Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/image3.jpg);
@@ -270,10 +270,12 @@ main {
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
-    .menu-branding .portait {
-      background: url("../img/portrait.jpeg");
+    .menu-branding .portrait {
       width: 150px;
-      height: 150px; }
+      height: 150px;
+      background: url("../img/portrait.jpeg");
+      border-radius: 50%;
+      border: solid 3px yellow; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
