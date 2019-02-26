@@ -47,8 +47,12 @@ $background-opacity:0.5;
 //media query mixin
 @mixin mediaSm {
 
-    @media screen and (max-width:500px) {
+    @media screen and  (min-width: 320px) 
+    and (max-width: 500px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
         @content;
+  
         
     }
     
