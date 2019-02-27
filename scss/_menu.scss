@@ -80,6 +80,7 @@
             background: url('../img/pix.jpg');
             border-radius: 50%;
             border:solid 3px $secondary-color;
+            object-fit: cover;
 
         }
     }
